@@ -7,7 +7,7 @@ $departamento = $_GET["txtDepartamento"];
 $cargo = $_GET["txtCargo"];
 $sexo = $_GET["rdSexo"];
 
-$conexao = mysql_connect("localhost","root","usbw");
+$conexao = mysql_connect("localhost","root","abc.123");
 $banco = mysql_select_db("ramal");
 
 
