@@ -43,16 +43,35 @@
 
 
 			<label id="label8" name="lblDepartamento"> DEPARTAMENTO </label>
-			<input type="text" id="departamento1" name="txtDepartamento" class="txtcadastro"/> <br>
 
+			<select name= "departamento1" id="departamento1">
+			<option 	value="1"> Compras </option>
+			<option   	value="2"> Vendas </option>
+			<option  	value="3"> Informatica </option>
+			<option  	value="4"> Recursos humanos </option>
+			<option  	value="6"> Financeiro </option>
 
-
-
-
+			</select>
 
 			<label id="label9" name="lblCargo"> CARGO </label>
-			<input type="text" id="cargo1" name="txtCargo"/ class="txtcadastro"/> <br>
-			<br><br><br>
+
+
+
+
+
+			<select name= "cargo1" id="cargo1">
+						<option 	value="2"> Gerente </option>
+						<option   	value="3"> Assistente </option>
+						<option  	value="1"> Auxiliar </option>
+						<option  	value="4"> Operacional</option>
+
+
+			</select>
+
+
+
+
+
 
 			<label id="lbsexo" name="lbsexo"> SEXO </label>
 			<label id="label10" name="label10"> Masculino </label>
@@ -63,8 +82,11 @@
 		<div id="botoes" name="botoesCadastrar">
 
 		<input id="btnCadastrar"  type="submit" value="Cadastrar"  name="cadastrar" />
-		<a href="home.html"><input id="btnCancelar"  type="submit" value="Cancelar"  name="Cancelar" /></a>
-		<input id="btnLimpar"  type="submit" value="Limpar"  name="Cancelar" />
+
+		<a href="home.html"><input id="btnCancelar"  type="button" value="Cancelar"  name="Cancelar" /></a>
+
+
+		<input id="btnLimpar"  type="reset" value="Limpar"  name="voltar" />
 
 		</div>
 
