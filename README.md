@@ -1,4 +1,4 @@
 # himgd
 
-Projeto de Marketplace PPI - Sumaré 2016.02
+Projeto de DB + PHP + Mysql - Sumaré 2016.02
 
