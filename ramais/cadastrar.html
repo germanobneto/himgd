@@ -1,101 +1,91 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <title> Controle de ramais </title>
 
- <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 
 <body>
     <div id="logo" name="logo">
 
-<a href="home.html"> <img src="imagens/logo2.png" /> </a>
-        </div>
+        <a href="home.html"> <img src="imagens/logo2.png" /> </a>
+    </div>
 
     <p>
         &nbsp;</p>
 
-	</br>
-	</br>
+    </br>
+    </br>
 
+    <div id="login2" name="login">
+    </div>
 
-<div id="login2" name="login">
-</div>
+    <form action="inserir.php">
+        <div id="divcadastrar1" name="cadastrar">
+            <br>
+            <br>
 
-<form action="inserir.php">
-<div id="divcadastrar1" name="cadastrar">
-<br><br>
+            <label id="label5" name="lblNome"> NOME </label>
+            <input type="text" id="name3" name="txtNome" class="txtcadastro" />
+            <br>
 
-			<label id="label5" name="lblNome"> NOME </label>
-			<input type="text" id="name3" name="txtNome" class="txtcadastro"/>  <br>
+            <label id="label6" name="lblRamal"> RAMAL </label>
+            <input type="text" id="ramal1" name="txtRamal" class="txtcadastro" />
+            <br>
 
-			<label id="label6" name="lblRamal"> RAMAL </label>
-			<input type="text" id="ramal1" name="txtRamal" class="txtcadastro"/>  <br>
+            <label id="label7" name="lblCracha"> CRACHA </label>
+            <input type="text" id="cracha1" name="txtCracha" class="txtcadastro" />
+            <br>
 
-			<label id="label7" name="lblCracha"> CRACHA </label>
-			<input type="text" id="cracha1" name="txtCracha" class="txtcadastro"/> <br>
+            <label id="label8" name="lblDepartamento"> DEPARTAMENTO </label>
 
+            <select name="departamento1" id="departamento1">
+                <option value="1"> Compras </option>
+                <option value="2"> Vendas </option>
+                <option value="3"> Informatica </option>
+                <option value="4"> Recursos humanos </option>
+                <option value="6"> Financeiro </option>
 
+            </select>
 
+            <label id="label9" name="lblCargo"> CARGO </label>
 
+            <select name="cargo1" id="cargo1">
+                <option value="2"> Gerente </option>
+                <option value="3"> Assistente </option>
+                <option value="1"> Auxiliar </option>
+                <option value="4"> Operacional</option>
 
+            </select>
 
-			<label id="label8" name="lblDepartamento"> DEPARTAMENTO </label>
+            <label id="lbsexo" name="lbsexo"> SEXO </label>
+            <label id="label10" name="label10"> Masculino </label>
+            <input type="radio" id="sexo1" name="rdSexo" value="M" />
+            <br>
+            <label id="label11" name="label11"> Feminino </label>
+            <input type="radio" id="sexo2" name="rdSexo" value="F" />
+            <br>
 
-			<select name= "departamento1" id="departamento1">
-			<option 	value="1"> Compras </option>
-			<option   	value="2"> Vendas </option>
-			<option  	value="3"> Informatica </option>
-			<option  	value="4"> Recursos humanos </option>
-			<option  	value="6"> Financeiro </option>
+            <div id="botoes" name="botoesCadastrar">
 
-			</select>
+                <input id="btnCadastrar" type="submit" value="Cadastrar" name="cadastrar" />
 
-			<label id="label9" name="lblCargo"> CARGO </label>
+                <a href="home.html">
+                    <input id="btnCancelar" type="button" value="Cancelar" name="Cancelar" />
+                </a>
 
+                <input id="btnLimpar" type="reset" value="Limpar" name="voltar" />
 
+            </div>
 
+        </div>
 
-
-			<select name= "cargo1" id="cargo1">
-						<option 	value="2"> Gerente </option>
-						<option   	value="3"> Assistente </option>
-						<option  	value="1"> Auxiliar </option>
-						<option  	value="4"> Operacional</option>
-
-
-			</select>
-
-
-
-
-
-
-			<label id="lbsexo" name="lbsexo"> SEXO </label>
-			<label id="label10" name="label10"> Masculino </label>
-			<input type="radio" id="sexo1" name="rdSexo" value="M"/><br>
-			<label id="label11" name="label11"> Feminino </label>
-			<input type="radio" id="sexo2" name="rdSexo" value="F"/><br>
-
-		<div id="botoes" name="botoesCadastrar">
-
-		<input id="btnCadastrar"  type="submit" value="Cadastrar"  name="cadastrar" />
-
-		<a href="home.html"><input id="btnCancelar"  type="button" value="Cancelar"  name="Cancelar" /></a>
-
-
-		<input id="btnLimpar"  type="reset" value="Limpar"  name="voltar" />
-
-		</div>
-
-</div>
-
-</form>
-
-
-
+    </form>
 
 </body>
+
 </html>
